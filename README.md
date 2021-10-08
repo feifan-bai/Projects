@@ -1,5 +1,5 @@
 # Projects
-Indivual coursework projects in Informaiton School.
+Indivual coursework projects as an Informaiton School student
 
 1. Pop the balloon, HTML5
 
