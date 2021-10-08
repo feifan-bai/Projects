@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+	<title>扎气球</title>
+	<style type="text/css">
+		body {
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+		canvas {
+			width: 900px;
+			height: 540px;
+			cursor:pointer;
+		}
+		.time-item strong{
+			background:#C71C60;
+			color:#fff;
+			line-height:49px;
+			font-size:36px;
+			font-family:Arial;
+			padding:0 10px;
+			margin-left:900px;
+			border-radius:5px;
+			box-shadow:1px 1px 3px rgba(0,0,0,0.2);
+		}
+	</style>
+</head>
+
+<body onload="init();" background="image/00.jpg">
+	<div id='canvasDiv'>
+		<canvas id="canvas" width="900px" height="540px">
+		</canvas>
+	</div>
+	<div class="time-item">
+		<strong id="second_show">80s</strong>
+	</div><!--倒计时模块-->
+	<audio id='misc' src='sound/pop.wav'/>
+	<script type="text/javascript" src="js/jquery-1.6.1.min.js"></script>
+	<script type="text/javascript" src="js/balloon.js"></script>
+</body>
+</html>
